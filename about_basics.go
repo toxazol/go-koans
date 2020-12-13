@@ -1,10 +1,10 @@
 package go_koans
 
 func aboutBasics() {
-	assert(__bool__ == true)  // what is truth?
-	assert(__bool__ != false) // in it there is nothing false
+	assert(2*2 == 4 == true) // what is truth?
+	assert(1 != 0 != false)  // in it there is nothing false
 
-	var i int = __int__
+	var i float64 = 1.0000000000000000000000000000000000000
 	assert(i == 1.0000000000000000000000000000000000000) // precision is in the eye of the beholder
 
 	k := __int__ //short assignment can be used, as well
